@@ -13,8 +13,7 @@
 		<!-- Tadukoo View -->
 		<dependency>
 			<groupId>${tadukoo.view.groupID}</groupId>
-			<artifactId>TadukooView</artifactId>
-			<version>${tadukoo.view.version}</version>
+			<artifactId>${tadukoo.view.view.aritfactID}</artifactId>
 		</dependency>
 		<!-- JUnit Dependencies -->
 		<dependency>
