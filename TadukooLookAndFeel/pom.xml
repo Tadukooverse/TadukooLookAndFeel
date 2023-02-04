@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.github.tadukoo.view.lookandfeel</groupId>
+		<artifactId>TadukooLookAndFeelParent</artifactId>
+		<version>0.4-Alpha-SNAPSHOT</version>
+	</parent>
+	<artifactId>TadukooLookAndFeel</artifactId>
+	<dependencies>
+		<!-- Tadukoo View -->
+		<dependency>
+			<groupId>${tadukoo.view.groupID}</groupId>
+			<artifactId>TadukooView</artifactId>
+			<version>${tadukoo.view.version}</version>
+		</dependency>
+		<!-- JUnit Dependencies -->
+		<dependency>
+			<groupId>${junit.jupiter.groupID}</groupId>
+			<artifactId>${junit.jupiter.artifactID}</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>${junit.platform.groupID}</groupId>
+			<artifactId>${junit.platform.artifactID}</artifactId>
+		</dependency>
+	</dependencies>
+	<build>
+		<sourceDirectory>${directory.source}</sourceDirectory>
+		<testSourceDirectory>${directory.test}</testSourceDirectory>
+	</build>
+</project>
